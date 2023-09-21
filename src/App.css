@@ -1,0 +1,53 @@
+
+
+.counter {
+ 
+  margin-top: 50px;
+  margin-left: 470px;
+  align-items: center;
+  justify-content: center;
+ 
+ 
+}
+h1{
+  margin-left: 120px;
+  color: black;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+span {
+  font-size: 24px;
+  margin: 0 20px;
+  min-width: 50px;
+}
+button:nth-child(n +4 ) {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+
+button:nth-child(n + 4):hover {
+  background-color: #4d4f51;
+}
+button:nth-child(n + 12 ) {
+  background-color: #373a3c;
+  color: white;
+  border: none;
+}
+
+button:nth-child(n + 12):hover {
+  background-color:rgb(87, 124, 87);
+}
+
+.limit-message {
+  font-size: 18px;
+  color: red;
+  margin-top: 10px;
+}
